@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cabeza {
+    padding: 5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo {
+    background-color: rgb(222,221,218);
+}
+
+figure {
+    display: flex;
+    margin: auto 100px; 
+    bottom: 100%;
+}
+
+p {
+    width: 30%;
+    margin: auto 0 auto 30%;
+}
+
+.img-2, .img-4 {
+    margin: 300px 100px;
+}
+
+.img-2 img {
+    position: relative;
+    left: 70%;
+}
+
+.img-2 p {
+    position: relative;
+    right: 60%;
+}
+
+.img-4 img {
+    position: relative;
+    left: 70%;
+}
+
+.img-4 p {
+    position: relative;
+    right: 50%;
+}
