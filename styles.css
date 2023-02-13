@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 .cabeza {
@@ -9,16 +10,36 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    background-color: rgb(60,31,66);
+}
+
+h1 {
+    border-bottom: 2px solid white;
 }
 
 .cuerpo {
-    background-color: rgb(222,221,218);
+    background-color: black;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    margin-top: 3051px;
+    position: absolute;
+    width: 1px;
+    height: 3051px;
+    background-color: white;
 }
 
 figure {
     display: flex;
     margin: auto 100px; 
     bottom: 100%;
+
 }
 
 p {
@@ -77,9 +98,7 @@ img.visible {
     }
 
     p {
-        /* top: 100px; */
         width: 900px;
-        text-align: justify;
     }
 
     .img-1, .img-3, .img-5 {
