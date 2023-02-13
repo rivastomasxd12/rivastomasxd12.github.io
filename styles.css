@@ -82,10 +82,19 @@ img.visible {
     right: 50%;
 }
 
+.img-5 {
+    position: relative;
+    right: -50px;
+}
+
 @media  screen and (max-width: 800px) {
     * {
         padding: 0;
         margin: 0;
+    }
+
+    div {
+        visibility: hidden;
     }
 
     body {
